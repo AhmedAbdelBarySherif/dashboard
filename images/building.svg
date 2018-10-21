@@ -1,0 +1,26 @@
+<svg id="building" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #21caff;
+      }
+    </style>
+  </defs>
+  <g id="Group_160" data-name="Group 160">
+    <g id="Group_159" data-name="Group 159">
+      <path id="Path_61" data-name="Path 61" class="cls-1" d="M118,116H106V50a2,2,0,0,0-2-2H76V2a2,2,0,0,0-2-2H22a2,2,0,0,0-2,2V116H2a2,2,0,0,0,0,4H118a2,2,0,1,0,0-4Zm-76,0H34V98a2,2,0,0,1,2-2h4a2,2,0,0,1,2,2Zm8-66v66H46V98a6,6,0,0,0-6-6H36a6,6,0,0,0-6,6v18H24V4H72V48H52A2,2,0,0,0,50,50Zm52,66H54V52h48Z"/>
+      <path id="Path_62" data-name="Path 62" class="cls-1" d="M214,112H202a2,2,0,0,0-2,2v12a2,2,0,0,0,2,2h12a2,2,0,0,0,2-2V114A2,2,0,0,0,214,112Zm-2,12h-8v-8h8Z" transform="translate(-150 -84)"/>
+      <path id="Path_63" data-name="Path 63" class="cls-1" d="M214,32H202a2,2,0,0,0-2,2V46a2,2,0,0,0,2,2h12a2,2,0,0,0,2-2V34A2,2,0,0,0,214,32Zm-2,12h-8V36h8Z" transform="translate(-150 -24)"/>
+      <path id="Path_64" data-name="Path 64" class="cls-1" d="M134,112H122a2,2,0,0,0-2,2v12a2,2,0,0,0,2,2h12a2,2,0,0,0,2-2V114A2,2,0,0,0,134,112Zm-2,12h-8v-8h8Z" transform="translate(-90 -84)"/>
+      <path id="Path_65" data-name="Path 65" class="cls-1" d="M134,32H122a2,2,0,0,0-2,2V46a2,2,0,0,0,2,2h12a2,2,0,0,0,2-2V34A2,2,0,0,0,134,32Zm-2,12h-8V36h8Z" transform="translate(-90 -24)"/>
+      <path id="Path_66" data-name="Path 66" class="cls-1" d="M134,192H122a2,2,0,0,0-2,2v12a2,2,0,0,0,2,2h12a2,2,0,0,0,2-2V194A2,2,0,0,0,134,192Zm-2,12h-8v-8h8Z" transform="translate(-90 -144)"/>
+      <path id="Path_67" data-name="Path 67" class="cls-1" d="M134,272H122a2,2,0,0,0-2,2v12a2,2,0,0,0,2,2h12a2,2,0,0,0,2-2V274A2,2,0,0,0,134,272Zm-2,12h-8v-8h8Z" transform="translate(-90 -204)"/>
+      <path id="Path_68" data-name="Path 68" class="cls-1" d="M322,320h12a2,2,0,0,0,2-2V306a2,2,0,0,0-2-2H322a2,2,0,0,0-2,2v12A2,2,0,0,0,322,320Zm2-12h8v8h-8Z" transform="translate(-240 -228)"/>
+      <path id="Path_69" data-name="Path 69" class="cls-1" d="M322,240h12a2,2,0,0,0,2-2V226a2,2,0,0,0-2-2H322a2,2,0,0,0-2,2v12A2,2,0,0,0,322,240Zm2-12h8v8h-8Z" transform="translate(-240 -168)"/>
+      <path id="Path_70" data-name="Path 70" class="cls-1" d="M322,400h12a2,2,0,0,0,2-2V386a2,2,0,0,0-2-2H322a2,2,0,0,0-2,2v12A2,2,0,0,0,322,400Zm2-12h8v8h-8Z" transform="translate(-240 -288)"/>
+      <path id="Path_71" data-name="Path 71" class="cls-1" d="M242,320h12a2,2,0,0,0,2-2V306a2,2,0,0,0-2-2H242a2,2,0,0,0-2,2v12A2,2,0,0,0,242,320Zm2-12h8v8h-8Z" transform="translate(-180 -228)"/>
+      <path id="Path_72" data-name="Path 72" class="cls-1" d="M242,240h12a2,2,0,0,0,2-2V226a2,2,0,0,0-2-2H242a2,2,0,0,0-2,2v12A2,2,0,0,0,242,240Zm2-12h8v8h-8Z" transform="translate(-180 -168)"/>
+      <path id="Path_73" data-name="Path 73" class="cls-1" d="M242,400h12a2,2,0,0,0,2-2V386a2,2,0,0,0-2-2H242a2,2,0,0,0-2,2v12A2,2,0,0,0,242,400Zm2-12h8v8h-8Z" transform="translate(-180 -288)"/>
+    </g>
+  </g>
+</svg>

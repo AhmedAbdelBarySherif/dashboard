@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.493 112.322">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff5621;
+      }
+    </style>
+  </defs>
+  <g id="instructor-giving-a-lecture-with-circular-graphic-on-screen" transform="translate(23 11.761)">
+    <g id="Group_156" data-name="Group 156" transform="translate(-23 -11.761)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="15.809" cy="15.809" r="15.809" transform="translate(4.809)"/>
+      <path id="Path_57" data-name="Path 57" class="cls-1" d="M125.862,10.048H87.644V5.722H77.507v4.326H38.627v5.214h2.58V26.736l-5.938-2.83h-8.9L20.344,30.9l-5.831-6.988L1.7,26.287.883,54.7h5.43l.294,5.9h.826V95H6.342L0,96.384v5.848H5.4l6.306-1.026.057,1.026h6.984V66.864h3.979v35.368h6.984l.057-1.026,6.306,1.026h5.4V96.384L35.126,95.01H34.043v-34.4h1L36.337,34.44l4.87,2.2V66.721H78.566V76.3L57.948,99.561h7.41l13.92-15.719V99.561h4.257v-15.7l13.9,15.7h7.528L84.229,76.3V66.721h41.636V15.266h1.628V10.048Zm-3.648,52.833H44.859V38.292l15.2,6.878L60,35.7,44.859,28.478V15.266h77.355V62.881Z" transform="translate(0 10.091)"/>
+      <path id="Path_58" data-name="Path 58" class="cls-1" d="M34.587,47.244a18.762,18.762,0,0,0,12.722-4.96l-7.814-8.113a7.587,7.587,0,1,1-5.545-13.343V9.554a18.85,18.85,0,0,0,.638,37.69Z" transform="translate(48.587 21.929)"/>
+      <path id="Path_59" data-name="Path 59" class="cls-1" d="M22.139,19.579l7.81,8.121a18.828,18.828,0,0,0,6.113-13.233l-11.282.045A7.6,7.6,0,0,1,22.139,19.579Z" transform="translate(68.392 37.106)"/>
+      <path id="Path_60" data-name="Path 60" class="cls-1" d="M28.687,28.229c0,.245-.016.474-.033.716L39.933,28.9c.008-.229.016-.446.016-.675A18.87,18.87,0,0,0,21.1,9.378c-.213,0-.421.008-.634.02V20.676c.209-.02.425-.037.634-.037A7.592,7.592,0,0,1,28.687,28.229Z" transform="translate(63.217 21.385)"/>
+      <rect id="Rectangle_82" data-name="Rectangle 82" class="cls-1" width="9.458" height="2.302" transform="translate(109.292 52.015)"/>
+      <rect id="Rectangle_83" data-name="Rectangle 83" class="cls-1" width="9.458" height="2.298" transform="translate(109.292 55.891)"/>
+      <rect id="Rectangle_84" data-name="Rectangle 84" class="cls-1" width="9.458" height="2.302" transform="translate(109.292 59.895)"/>
+      <rect id="Rectangle_85" data-name="Rectangle 85" class="cls-1" width="9.458" height="2.302" transform="translate(109.292 63.984)"/>
+      <rect id="Rectangle_86" data-name="Rectangle 86" class="cls-1" width="9.458" height="2.302" transform="translate(109.292 68.024)"/>
+    </g>
+  </g>
+</svg>

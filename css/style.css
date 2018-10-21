@@ -1,0 +1,188 @@
+body{
+     font-family: 'Cairo', sans-serif;
+}
+
+.note-part {
+    background-color: #fff;
+    padding: 10px 0
+}
+
+.note-part .naming {
+    color: #b7b7b7
+}
+
+.note-part .note img {
+    width: 20px
+}
+
+.main-tabs {
+    background-color: #f2f2f2;
+    padding: 25px 0 0;
+}
+
+.main-tabs .nav-tabs {
+    border-bottom: 0;
+    margin: auto;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: 0;
+    border-bottom: 0 solid #fff
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: #b0b0b0;
+    font-weight: 600;
+    border: 0;
+    background-color: #f2f2f2;
+    transition: all .2s ease-in-out;
+
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    /* border: 0;
+    color: #7493f8 */
+}
+
+.nav-tabs .nav-item .active {
+    border: 0;
+    color: #7493f8;
+}
+
+#myTabContent {
+    width: 100%;
+}
+
+#myTabContent .nav-tabs {
+    text-align: center;
+    margin: auto;
+}
+
+#requests {
+    margin: auto;
+}
+
+#myTabContent .nav-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px
+}
+
+#myTabContent .nav-tabs .nav-link {
+    border-radius: 0;
+    background-color: #fff;
+    margin: 2px;
+    width: 200px;
+    height: 110px
+}
+
+#myTabContent .nav-tabs .nav-link .content-icon {
+    display: flex;
+    /* background-color: #f8f8f8; */
+    /* background-color: #fff; */
+    padding: 4px;
+    height: 100px;
+    width: 100%
+}
+
+#myTabContent .nav-tabs .nav-link .content-icon img {
+    width: 70px;
+    margin-left: 20px;
+}
+
+#myTabContent .nav-tabs .nav-link .content-icon ul:not('.note') {
+    text-align: left
+}
+
+#myTabContent .nav-tabs .nav-link .content-icon ul span.note {
+    display: block;
+    color: #fff;
+    background-color: #f97b7b;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px
+}
+
+#myTabContent .nav-tabs .nav-link .content-icon ul h6 {
+    color: #bebebe;
+    font-size: 12px;
+    width: 75px
+}
+
+#myTabContent .nav-tabs .nav-link .content-icon ul p {
+    color: #4a4a4a;
+    font-size: 30px;
+    font-family:  Courier
+}
+
+#myTabContent .searching {
+    float: right;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%
+}
+
+#myTabContent .searching ul {
+    overflow: hidden;
+    float: right;   
+}
+
+#myTabContent .searching li {
+    float: left;
+}
+
+#myTabContent .searching li select {
+    border: 1px solid #3081f9;
+    background-color: #f2f2f2;
+    color: #3081f9;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 0 6px;
+    font-weight: 600
+}
+
+#myTabContent .searching li select:first-of-type {
+    margin-right: 20px
+}
+
+#myTabContent .tab-content {
+    width: 100%;
+}
+
+#myTabContent .tab-content .tab-pane {
+    direction: rtl
+}
+
+#myTabContent .tab-content .tab-pane .table {
+    background-color: #fff
+}
+
+#myTabContent .table .heading {
+    border-top: 2px solid #7493f8;
+    border-bottom: 2px solid #7493f8;
+    color: #7493f8;
+    font-size: 12px
+}
+
+#myTabContent .tab-content .tab-pane .table tr th,
+#myTabContent .tab-content .tab-pane .table tr td {
+    text-align: right
+}
+
+#myTabContent .tab-content .tab-pane .table tr button {
+    color: #3081f9;
+    font-size: 14px;
+    font-weight: 600;
+    border:1px solid #3081f9;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .2s ease-in-out
+}
+
+#myTabContent .tab-content .tab-pane .table tr button:hover {
+    background-color: #3081f9;
+    color: #fff
+}

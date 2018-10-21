@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dash Board</title>
+        <!--=============== google fonts css ===============-->
+        <link href="https://fonts.googleapis.com/css?family=Cairo|Tajawal" rel="stylesheet">
+        <!--=============== Bootstrap css ===============-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--=============== fontAwesome css ===============-->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!--=============== style css ===============-->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+   
+    <body>
+        <!--========== Start wrapper ==========-->
+        <section class="note-part">
+            <section class="container-fluid"><!--Start Container-fluid-->
+                <div class="row"><!--Start row-->
+
+                    <div class="col-sm">
+                        <div class="naming">
+                            <i class="fa fa-server fa-fw"></i>
+                            <span>Dashboard</span>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="note text-right">
+                            <img src="images/bell.svg" alt="">
+                        </div>
+                    </div>
+                
+                </div><!--End row-->
+            </section><!--End Container-fluid-->
+        </section>    
+        <!--========== End wrapper ==========-->
+
+        <!--========== Start tabs ==========-->
+        <section class="main-tabs">
+            <div class="container-fluid"><!--Start container-fluid-->
+                <div class="row"><!--Start row-->
+
+                    <!-- <div class="col-xs-12">Start main col -->
+                        <ul class="nav nav-tabs" id="myTab" role="tablist"><!--Start main taps-->
+                            <li class="nav-item">
+                                <a class="nav-link" id="home-tab" data-toggle="tab" href="#performance" role="tab" aria-controls="home" aria-selected="true">Performance</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#reports" role="tab" aria-controls="profile" aria-selected="false">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" id="contact-tab" data-toggle="tab" href="#requests" role="tab" aria-controls="contact" aria-selected="false">Requests</a>
+                            </li>
+                        </ul><!--End main taps-->
+                        
+                        <div class="tab-content" id="myTabContent"><!--Start main-taps-container-->
+                        
+                            <div class="tab-pane fade show active tab-pane-requests" id="requests" role="tabpanel" aria-labelledby="requests-tab"><!--Start request-content-->
+                              
+                                <ul class="nav nav-tabs" id="myTab" role="tablistRequest"><!--Start request tabs-->
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="enroll-tab" data-toggle="tab" href="#enroll" role="tab" aria-controls="home" aria-selected="true">
+                                            <div class="content-icon">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <span class="note">2</span>
+                                                    </li>
+                                                    <li>
+                                                        <h6>طلبات الالتحاق</h6>
+                                                    </li>
+                                                    <li>
+                                                        <p>400</p>
+                                                    </li>
+                                                </ul>
+                                                <img src="images/Group.svg" alt="">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="back-tab" data-toggle="tab" href="#back" role="tab" aria-controls="profile" aria-selected="false">
+                                            <div class="content-icon">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <span class="note">2</span>
+                                                    </li>
+                                                    <li>
+                                                        <h6>اشعار العودة</h6>
+                                                    </li>
+                                                    <li>
+                                                        <p>600</p>
+                                                    </li>
+                                                </ul>
+                                                <img src="images/traveler-with-a-suitcase.svg" alt="">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="trainers-tab" data-toggle="tab" href="#trainers" role="tab" aria-controls="contact" aria-selected="false">
+                                            <div class="content-icon">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <span class="note">2</span>
+                                                    </li>
+                                                    <li>
+                                                        <h6>طلبات المدربين</h6>
+                                                    </li>
+                                                    <li>
+                                                        <p>180</p>
+                                                    </li>
+                                                </ul>
+                                                <img src="images/instructor-lecture.svg" alt="">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="trainee-tab" data-toggle="tab" href="#trainee" role="tab" aria-controls="contact" aria-selected="false">
+                                            <div class="content-icon">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <span class="note">2</span>
+                                                    </li>
+                                                    <li>
+                                                        <h6>طلبات المتدربين</h6>
+                                                    </li>
+                                                    <li>
+                                                        <p>200</p>
+                                                    </li>
+                                                </ul>
+                                                <img src="images/group-of-people.svg" alt="">
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="accredited-tab" data-toggle="tab" href="#accredited" role="tab" aria-controls="contact" aria-selected="false">
+                                            <div class="content-icon">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <span class="note">2</span>
+                                                    </li>
+                                                    <li>
+                                                        <h6>طلبات الالتحاق</h6>
+                                                    </li>
+                                                    <li>
+                                                        <p>320</p>
+                                                    </li>
+                                                </ul>
+                                                <img src="images/check.svg" alt="">
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul><!--End request tabs-->
+                                <div class="searching justify-content-end">
+                                    <ul class="list-unstyled">
+                                        <li class="nav-item">
+                                            <select>
+                                                <option>التاريخ</option>
+                                                <option>التاريخ</option>
+                                            </select>
+                                        </li>
+                                        <li class="nav-item">
+                                            <select>
+                                                <option>الاداره</option>
+                                                <option>الاداره</option>
+                                            </select>
+                                        </li>
+                                        <li class="nav-item">
+                                            <select>
+                                                <option>الموضوع</option>
+                                                <option>الموضوع</option>
+                                            </select>
+                                        </li>
+                                        <li class="nav-item">
+                                            <select>
+                                                <option>معهد</option>
+                                                <option>معهد</option>
+                                            </select>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content" id="myTabContent"><!--Start request-tabs-container-->
+                                    <div class="tab-pane fade show active" id="enroll" role="tablistRequest" aria-labelledby="request-tab">
+                                        <table class="table">
+                                            <tr class="heading">
+                                                <th scope="col">#</th>
+                                                <th scope="col">اسم الموظف</th>
+                                                <th scope="col">رقم الموظف</th>
+                                                <th scope="col">المسمى الوظيفى</th>
+                                                <th scope="col">الوحده الاداريه</th>
+                                                <th scope="col">اسم الدوره<span>التى يريد الالتحاق بها</span></th>
+                                                <th scope="col">التفاصيل</th>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>احمد ابراهيم</td>
+                                                <td>733</td>
+                                                <td>محصل قضائى اول</td>
+                                                <td>شعبه تدريب التخطيط</td>
+                                                <td>دورة الشئون المالية</td>
+                                                <td>
+                                                    <button>عرض التفاصيل</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>احمد ابراهيم</td>
+                                                <td>733</td>
+                                                <td>محصل قضائى اول</td>
+                                                <td>شعبه تدريب التخطيط</td>
+                                                <td>دورة الشئون المالية</td>
+                                                <td>
+                                                    <button>عرض التفاصيل</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>احمد ابراهيم</td>
+                                                <td>733</td>
+                                                <td>محصل قضائى اول</td>
+                                                <td>شعبه تدريب التخطيط</td>
+                                                <td>دورة الشئون المالية</td>
+                                                <td>
+                                                    <button>عرض التفاصيل</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>احمد ابراهيم</td>
+                                                <td>733</td>
+                                                <td>محصل قضائى اول</td>
+                                                <td>شعبه تدريب التخطيط</td>
+                                                <td>دورة الشئون المالية</td>
+                                                <td>
+                                                    <button>عرض التفاصيل</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>احمد ابراهيم</td>
+                                                <td>733</td>
+                                                <td>محصل قضائى اول</td>
+                                                <td>شعبه تدريب التخطيط</td>
+                                                <td>دورة الشئون المالية</td>
+                                                <td>
+                                                    <button>عرض التفاصيل</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>احمد ابراهيم</td>
+                                                <td>733</td>
+                                                <td>محصل قضائى اول</td>
+                                                <td>شعبه تدريب التخطيط</td>
+                                                <td>دورة الشئون المالية</td>
+                                                <td>
+                                                    <button>عرض التفاصيل</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>احمد ابراهيم</td>
+                                                <td>733</td>
+                                                <td>محصل قضائى اول</td>
+                                                <td>شعبه تدريب التخطيط</td>
+                                                <td>دورة الشئون المالية</td>
+                                                <td>
+                                                    <button>عرض التفاصيل</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>احمد ابراهيم</td>
+                                                <td>733</td>
+                                                <td>محصل قضائى اول</td>
+                                                <td>شعبه تدريب التخطيط</td>
+                                                <td>دورة الشئون المالية</td>
+                                                <td>
+                                                    <button>عرض التفاصيل</button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="back" role="tablistRequest" aria-labelledby="profile-tab">
+                                        2
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="trainers" role="tablistRequest" aria-labelledby="contact-tab">
+                                        3
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="trainee" role="tablistRequest" aria-labelledby="contact-tab">
+                                        4
+                                    </div>
+                                    
+                                    <div class="tab-pane fade" id="accredited" role="tablistRequest" aria-labelledby="contact-tab">
+                                        5
+                                    </div>
+                                </div><!--End request-tabs-container-->
+                            
+                            </div><!--End request-content-->
+                        
+                            <div class="tab-pane fade" id="reports" role="tabpanel" aria-labelledby="reports-tab">...</div>
+                        
+                            <div class="tab-pane fade" id="performance" role="tabpanel" aria-labelledby="performance-tab">....</div>
+                        
+                        </div><!--End main-taps-container-->
+                    <!-- </div>End main col -->
+
+                </div><!--End row-->
+            </div><!--End container-fluid-->
+        </section>
+        <!--========== End tabs ==========-->
+
+        
+
+        
+        <!--========== jQuery library ==========-->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/poper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!--========== bootstrap js ==========-->
+        <script src="js/bootstrap.min.js"></script>
+        <!--========== custom js ==========-->
+        <script src="js/custom.js"></script>
+    </body>
+</html>
